@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<style type="text/css">
+		.qn1{
+			height: 900px;
+			width: 900px;
+			background: yellow;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding-top: 50px;
+			display: block;	
+		}
+		.qn2{
+			height: 900px;
+			width: 900px;
+			background: red;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;	
+			padding-top: 50px;
+			display: none;	
+		}
+		.qn3{
+			height: 900px;
+			width: 900px;
+			background: lightskyblue;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding-top: 50px;
+			display: none;		
+		}
+		.qn4{
+			height: 900px;
+			width: 900px;
+			background: blue;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding-top: 50px;
+			display: none;		
+		}
+		.qn5{
+			height: 900px;
+			width: 900px;
+			background: mediumpurple;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding-top: 50px;
+			display: none;		
+		}
+
+		.qn1pic1{
+			height: 450px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(1.png);
+			background-size: 100%;
+		}
+		.qn2pic1{
+			height: 450px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(2.png);
+			background-size: 100%;
+		}
+		.qn3pic1{
+			height: 450px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(3.png);
+			background-size: 100%;
+		}
+		.qn4pic1{
+			height: 450px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(4.png);
+			background-size: 100%;
+		}
+		.qn5pic1{
+			height: 450px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(5.png);
+			background-size: 100%;
+		}
+
+		.qn1a1{
+			height: 85px;
+			width: 800px;
+			background-image: url(11.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn1a2{
+			height: 85px;
+			width: 800px;
+			background-image: url(12.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn1a3{
+			height: 85px;
+			width: 800px;
+			background-image: url(13.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.qn2a1{
+			height: 85px;
+			width: 800px;
+			background-image: url(21.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn2a2{
+			height: 85px;
+			width: 800px;
+			background-image: url(22.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn2a3{
+			height: 85px;
+			width: 800px;
+			background-image: url(23.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.qn3a1{
+			height: 85px;
+			width: 800px;
+			background-image: url(31.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn3a2{
+			height: 85px;
+			width: 800px;
+			background-image: url(32.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn3a3{
+			height: 85px;
+			width: 800px;
+			background-image: url(33.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.qn4a1{
+			height: 85px;
+			width: 800px;
+			background-image: url(41.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn4a2{
+			height: 85px;
+			width: 800px;
+			background-image: url(42.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn4a3{
+			height: 85px;
+			width: 800px;
+			background-image: url(43.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.qn5a1{
+			height: 85px;
+			width: 800px;
+			background-image: url(51.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn5a2{
+			height: 85px;
+			width: 800px;
+			background-image: url(52.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.qn5a3{
+			height: 85px;
+			width: 800px;
+			background-image: url(53.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.end{
+			height: 900px;
+			width: 1400px;
+			background-image: url(end.png);
+			background-size: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding-top: 50px;
+			display: none;
+		}
+		.bg{
+			background: #898989;
+			padding-top: 100px;
+			width:10000px;
+			height:1500px;
+		}
+
+	</style>
+</head>
+<body>
+		<div class="qn1">
+			<div class="qn1pic1"></div>
+			<div class="qn1a1"></div>
+			<div class="qn1a2"></div>
+			<div class="qn1a3"></div>
+		</div>
+		<div class="qn2">
+			<div class="qn2pic1"></div>
+			<div class="qn2a1"></div>
+			<div class="qn2a2"></div>
+			<div class="qn2a3"></div>
+		</div>
+		<div class="qn3">
+			<div class="qn3pic1"></div>
+			<div class="qn3a1"></div>
+			<div class="qn3a2"></div>
+			<div class="qn3a3"></div>
+		</div>
+		<div class="qn4">
+			<div class="qn4pic1"></div>
+			<div class="qn4a1"></div>
+			<div class="qn4a2"></div>
+			<div class="qn4a3"></div>
+		</div>
+		<div class="qn5">
+			<div class="qn5pic1"></div>
+			<div class="qn5a1"></div>
+			<div class="qn5a2"></div>
+			<div class="qn5a3"></div>
+		</div>
+			<div class="end"></div>
+	<script type="text/javascript">
+		document.querySelector(".qn1a1").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn1a2").onclick = function () {
+			document.querySelector(".qn1").style.display = "none";
+			document.querySelector(".qn2").style.display = "block";
+
+		}
+		document.querySelector(".qn1a3").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+
+		document.querySelector(".qn2a1").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn2a2").onclick = function () {
+			document.querySelector(".qn2").style.display = "none";
+			document.querySelector(".qn3").style.display = "block";
+		}
+		document.querySelector(".qn2a3").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+
+		document.querySelector(".qn3a1").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn3a2").onclick = function () {
+			
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn3a3").onclick = function () {
+			document.querySelector(".qn3").style.display = "none";
+
+			document.querySelector(".qn4").style.display = "block";
+		}
+
+		document.querySelector(".qn4a1").onclick = function () {
+		
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn4a2").onclick = function () {
+			document.querySelector(".qn4").style.display = "none";
+			document.querySelector(".qn5").style.display = "block";
+		}
+		document.querySelector(".qn4a3").onclick = function () {
+		
+			alert("Неправильно!")
+		}
+
+		document.querySelector(".qn5a1").onclick = function () {
+			alert("Вы прошли тест!");
+			document.querySelector(".qn5").style.display = "none";
+			document.querySelector(".end").style.display = "block";
+		}
+		document.querySelector(".qn5a2").onclick = function () {
+			alert("Неправильно!")
+		}
+		document.querySelector(".qn5a3").onclick = function () {
+			alert("Неправильно!")
+		}
+	</script>
+</body>
+</html>
